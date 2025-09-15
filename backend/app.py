@@ -4,7 +4,7 @@ from controllers.auth_controller import AuthController
 from controllers.user_controller import UserController
 
 def main():
-    print("ESTUDIONET - Sistema de Autenticación")
+    print(" ESTUDIONET - Sistema de Autenticación")
     print("=" * 40)
     
     auth = AuthController()
@@ -28,7 +28,7 @@ def main():
                 else:
                     menu_usuario(usuario, user_controller)
         elif opcion == "3":
-            print(" ¡Hasta luego!")
+            print(" ¡Hasta pronto!")
             break
         else:
             print(" Opción no válida")

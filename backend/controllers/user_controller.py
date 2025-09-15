@@ -23,7 +23,7 @@ class UserController:
 
     def change_user_role(self, user_id, new_role):
         if new_role not in ['admin', 'user']:
-            print("❌ Rol debe ser 'admin' o 'user'")
+            print(" Rol debe ser 'admin' o 'user'")
             return False
             
         db = Database()
